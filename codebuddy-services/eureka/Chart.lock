@@ -1,0 +1,6 @@
+dependencies:
+- name: codebuddy-common
+  repository: file://../../codebuddy-common
+  version: 0.1.0
+digest: sha256:0a157a4a545473bb795ce803041339835e5bf659d6d65980090265a4141e1f3a
+generated: "2023-07-21T13:00:00.302491008+03:00"

@@ -1,0 +1,17 @@
+deploymentName: file-management-deployment
+deploymentLabel: file-management
+replicaCount: 1
+
+image:
+  repository: codebuddyapp/file-management
+  tag: latest
+
+containerPort: 8080
+
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
+
+profile_enabled: false
+eureka_enabled: true

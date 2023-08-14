@@ -1,0 +1,4 @@
+global:
+  configMapName: codebuddy-configmap-prod
+  activeProfile: dev 
+  eurekaUrl: http://eureka:8671/eureka

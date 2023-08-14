@@ -1,0 +1,15 @@
+dependencies:
+- name: codebuddy-common
+  repository: file://../codebuddy-common
+  version: 0.1.0
+- name: eureka
+  repository: file://../codebuddy-services/eureka
+  version: 0.1.0
+- name: gateway
+  repository: file://../codebuddy-services/gateway
+  version: 0.1.0
+- name: file-management-service
+  repository: file://../codebuddy-services/file-management-service
+  version: 0.1.0
+digest: sha256:aa3f325d8f2eb7d5801e08643dfdb456ebca782b8c69a90e019c0f1e120e3329
+generated: "2023-07-21T13:00:21.042506983+03:00"

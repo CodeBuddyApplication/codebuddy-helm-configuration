@@ -1,0 +1,21 @@
+dependencies:
+- name: codebuddy-common
+  repository: file://../codebuddy-common
+  version: 0.1.0
+- name: eureka
+  repository: file://../codebuddy-services/eureka
+  version: 0.1.0
+- name: eureka
+  repository: file://../codebuddy-services/gateway
+  version: 0.1.0
+- name: gateway
+  repository: file://../codebuddy-services/task-fetching-service
+  version: 0.1.0
+- name: task-fetching-service
+  repository: file://../codebuddy-services/task-service
+  version: 0.1.0
+- name: task-service
+  repository: file://../codebuddy-services/task-service
+  version: 0.1.0
+digest: sha256:7a628035bde1da25c3b164476e82a7a589dda40d5f979b75e63a1b1a3dcf7fc0
+generated: "2023-07-10T22:15:29.972692119+03:00"

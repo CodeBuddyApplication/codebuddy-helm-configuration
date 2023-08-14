@@ -1,0 +1,17 @@
+deploymentName: eureka-deployment
+deploymentLabel: eureka
+replicaCount: 1
+
+image:
+  repository: codebuddyapp/eureka
+  tag: latest
+
+containerPort: 8761
+
+service:
+  type: ClusterIP
+  port: 8761
+  targetPort: 8761
+
+profile_enabled: false
+eureka_enabled: false
